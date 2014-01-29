@@ -80,5 +80,10 @@ namespace cloudapp
 
             lblMessage.Text = p + " Number is a prime number";
         }
+
+        protected void btnBack_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm1.aspx");
+        }
     }
 }

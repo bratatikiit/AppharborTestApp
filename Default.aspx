@@ -78,6 +78,8 @@
             <td class="style9">
                 <asp:Button ID="btnSubmit" runat="server" style="text-align: left" 
                     Text="Submit" onclick="btnSubmit_Click" />
+                <asp:Button ID="btnBack" runat="server" style="text-align: left" 
+                    Text="Back" onclick="btnBack_Click" CausesValidation="False" />
             </td>
         </tr>
         <tr>
